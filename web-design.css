@@ -1,0 +1,61 @@
+
+.page-header{
+  color: #65c8d0;
+}
+
+.highlights{
+  padding-top: 20px;
+}
+
+.about {
+  padding-bottom: 20px;
+
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.tile-container,
+.tile-container > .tile {
+  padding: 10px;
+}
+
+.tile {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+}
+
+.tile-container{
+  position: relative;
+  text-align: center; 
+}
+
+.mini-title{
+  text-align: left;
+}
+
+/* Content */
+.content {
+  background-color: #e3e6e8;
+  padding: 1px;
+  text-align: center;
+}
+
+a.button{
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #838bc5; 
+}
+
+.back{
+  padding-top: 50px;
+  text-align: center;
+}
+
+
+
+
+
+
+

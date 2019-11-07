@@ -1,115 +1,48 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-	text-decoration: none;
-}
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* CSS Reset End */
-
-
-nav a{
-	display: inline-block;
-	padding-left: 80px;
-	padding-right: 80px;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 20;
-	color: #ffffff;
-}
-
-.vertical-menu {
-  width: 200px; /* Set a width if you like */
-  vertical-align: left;
-  padding-top: 20px;
-  position: absolute;
-  top: 0;
-  right: 0
-}
-
-.vertical-menu a {
-  color: grey; /* Black text color */
-  display: block; /* Make the links appear below each other */
-  padding: 12px; /* Add some padding */
-  text-decoration: none; /* Remove underline from links */
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-}
-
-.icon-logo{
-	padding: 12px;
-}
-
-.page-header{
-	text-align: center;
-	font-size: 3em;
-	font-family: 'Montserrat', sans-serif;
+.flex-container-row > div {
+  margin: 50px 20px;
 }
 
 #pic{
-  float: left;
-  padding-left: 300px;
-  padding-top: 75px;
+	width: 260px;
+	height: 380px;
+	background-image: url(img/about-img-02.png);
+	background-size: cover;
+	background-position: center center;
+	border-radius: 40px;
 }
 
 #text{
-  font-family: 'Montserrat', sans-serif;
-  float: right;
-  padding-right: 300px;
-  padding-top: 75px;
+	width: 460px;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-/*@media screen and (max-width: 900px) {*/
-  /*.column {*/
-    /*width: 50%;*/
-  /*}*/
+#tookit{
+	width: 230px;
+}
 
- /*Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-/*@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
+  	.flex-container{
+    	flex-direction: column;
+    	text-align: left;
 
+  }
+}
+
+hr{
+	width: 1000px;
+	align-self: center;
+	border-style: none;
+	border-top: 1px solid #65c8d0;
+}
+
+.contact{
+	text-align: left;
+	padding-left: 190px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+#contact-title{
+	color: #65c8d0;
+}
 

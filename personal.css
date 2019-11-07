@@ -1,0 +1,36 @@
+
+.about {
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+
+.highlights {
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.about_anim {
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-bottom: 40px;
+}
+
+.about_app {
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-bottom: 40px;
+}
+
+.video {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+#myhouse {
+  border: 1px solid black;
+}

@@ -1,117 +1,16 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  text-decoration: none;
-}
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
-body {
-  line-height: 1;
-}
-ol, ul {
-  list-style: none;
-}
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* CSS Reset End */
-
-
-nav a{
-  display: inline-block;
-  padding-left: 80px;
-  padding-right: 80px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20;
-  color: #ffffff;
-}
-
-.vertical-menu {
-  width: 200px; /* Set a width if you like */
-  vertical-align: left;
-  padding-top: 20px;
-  position: absolute;
-  top: 0;
-  right: 0
-}
-
-.vertical-menu a {
-  color: grey; /* Black text color */
-  display: block; /* Make the links appear below each other */
-  padding: 12px; /* Add some padding */
-  text-decoration: none; /* Remove underline from links */
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-}
-
-.icon-logo{
-  padding: 12px;
-}
-
-.page-header{
-  text-align: center;
-  font-size: 3em;
-  font-family: 'Montserrat', sans-serif;
-}
-
-/*Portfiolio Grid*/
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #f1f1f1;
-  padding: 20px;
-  font-family: 'Montserrat', sans-serif;
-}
 
 /* Add padding BETWEEN each column (if you want) */
+
+/*this means tiles inside tile container*/
 .tile-container,
-.tile-container > .tile {
+.tile-container > .tile { 
   padding: 20px;
 }
 
 .tile {
   position: relative;
   display: inline-block;
-  text-align: left;
+  text-align: center;
 }
 
 .tile-container{
@@ -120,15 +19,46 @@ body {
 }
 
 /* Content */
-.content {
-  background-color: white;
-  padding: 10px;
-  text-align: center;
+h3{
+  position: absolute;
+  bottom: 35px;
+  left: 40px;
 }
 
-h3{
-	margin-top: 10px;
+.lakepharma{
+  width: 310px;
+  height: 420px;
+  background-image: url(img/portfolio-01.png);
+  background-size: cover;
+  background-position: center center;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5)
 }
+
+.phisig{
+  width: 310px;
+  height: 420px;
+  background-image: url(img/portfolio-03.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+.personal{
+  width: 310px;
+  height: 420px;
+  background-image: url(img/portfolio-02.png);
+  background-size: cover;
+  background-position: center center;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5)
+}
+
 
 
 
