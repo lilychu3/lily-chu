@@ -1,28 +1,11 @@
 
-.about {
-  padding-left: 250px;
-  padding-right: 250px;
-  padding-bottom: 20px;
-  padding-top: 40px;
-}
-
-.highlights {
-  padding-left: 250px;
-  padding-right: 250px;
-  padding-bottom: 20px;
+.highlights{
   padding-top: 20px;
 }
 
-.about_anim {
-  padding-left: 250px;
-  padding-right: 250px;
-  padding-bottom: 40px;
-}
+.about {
+  padding-bottom: 20px;
 
-.about_app {
-  padding-left: 250px;
-  padding-right: 250px;
-  padding-bottom: 40px;
 }
 
 .video {

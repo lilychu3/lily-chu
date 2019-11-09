@@ -2,31 +2,13 @@
   color: #ba9bc9;
 }
 
-h2{
-  color: #ba9bc9;
-
-}
-
-
-
-.about {
-  padding-left: 250px;
-  padding-right: 250px;
-  padding-bottom: 20px;
-  padding-top: 40px;
-}
-
-.highlights {
-  padding-left: 250px;
-  padding-right: 250px;
-  padding-bottom: 20px;
+.highlights{
   padding-top: 20px;
 }
 
-.about_img {
-  padding-left: 250px;
-  padding-right: 250px;
-  padding-bottom: 40px;
+.about {
+  padding-bottom: 20px;
+
 }
 
 .infographic {
@@ -65,19 +47,17 @@ h2{
 }
 
 a.button{
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
     padding: 10px;
     text-decoration: none;
-    color: black;
+    color: #fff;
+    border-radius: 5px;
     background-color: #838bc5; 
 }
 
 .back{
+  padding-top: 50px;
   text-align: center;
 }
-
 
 
 
