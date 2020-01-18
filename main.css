@@ -1,0 +1,290 @@
+#fader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+	pointer-events: none;
+	background: white;
+	animation-duration: 300ms;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes fade-out {
+    from { opacity: 1 }
+      to { opacity: 0 }
+}
+
+@keyframes fade-in {
+    from { opacity: 0 }
+      to { opacity: 1 }
+}
+
+#fader.fade-out {
+    opacity: 0;
+    animation-name: fade-out;
+}
+
+#fader.fade-in {
+    opacity: 1;
+    animation-name: fade-in;
+}
+
+
+/*CSS Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+* {
+	box-sizing: border-box;
+}
+img {
+	max-width: 100%;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*CSS Reset End*/
+
+/*Navigation*/
+
+body {
+	font-weight: 400;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 14px;
+	padding: 76px 112px 0;
+	max-width: 1440px;
+}
+
+b{
+	font-weight: 700;
+}
+
+.header-flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#logo {
+	width: 42px;
+}
+
+.ul-nav {
+	list-style-type: none;
+	margin: 0;
+	font-family: 'Nunito Sans', sans-serif;
+	letter-spacing: 2px;
+	font-size: 16px;
+	text-align: right;
+}
+
+.li-nav li {
+	display: inline;
+	margin-left: 36px;
+}
+
+a {
+	color: #2C2C2C;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #e3528c;
+}
+
+/*Font Styling*/
+h1{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 34;
+	font-weight: 400;
+	letter-spacing: 4px;
+	line-height: 50px;
+	color: #2C2C2C
+}
+
+h2{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 30;
+	font-weight: 400;
+	letter-spacing: 3px;
+	line-height: 50px;
+	color: #2C2C2C
+}
+
+h3{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 25;
+	font-weight: 400;
+	letter-spacing: 3px;
+	line-height: 50px;
+	color: #2C2C2C
+}
+
+h4{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 20;
+	font-weight: 400;
+	letter-spacing: 2px;
+	line-height: 35px;
+	color: #2C2C2C;
+}
+
+h5{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 16;
+	font-weight: 700;
+	letter-spacing: 2px;
+	line-height: 30px;
+	color: #626262;
+}
+
+p{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 16;
+	font-weight: 400;
+	letter-spacing: 2px;
+	line-height: 30px;
+	color: #626262;
+	margin-bottom: 1.4em;
+}
+
+h6{
+
+}
+
+ul{
+	list-style-type: circle;
+	margin-left: 1.6em;
+	margin-bottom: 1.4em;
+}
+
+ol{
+	list-style-type: decimal;
+	padding-left: 35px;
+}
+
+li{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 16;
+	font-weight: 400;
+	letter-spacing: 2px;
+	line-height: 30px;
+	color: #626262;
+}
+
+/*Background*/
+
+body{
+	background-color: #f2f2f2;
+}
+
+hr{
+	margin-left: 112px;
+	margin-right: 112px;
+	margin-top: 50px;
+}
+
+/*Footer*/
+
+footer{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	line-height: 20px;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 36px;
+}
+
+/*Utilities*/
+
+.row-flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.flex-start {
+	justify-content: flex-start;	
+}
+
+.flex-space-around {
+	justify-content: space-around;
+}
+
+.halfy > * {
+	flex-basis: 50%;
+}
+
+.title{
+	margin-top: 36px;
+	margin-bottom: 36px;
+}
+
+.row-title {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+  	.row-flex{
+  		flex-direction: column;
+  	}
+  	body{
+  		padding: 15px;
+  	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

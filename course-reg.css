@@ -1,0 +1,90 @@
+li a.active {
+  	color: #e3528c;
+}
+
+.image{
+	margin-bottom: 36px;
+}
+
+.content-right{
+	padding-left: 50px;
+}
+
+#goal{
+	color: #2C2C2C;
+	font-weight: bold;
+}
+
+.row-title2{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+#empathy{
+	margin-top: 50px;
+}
+
+.persona img{
+	display: block;
+	height: 100px;
+	padding-bottom: 10px;
+}
+
+.persona div {
+	flex-basis: 31%;
+}
+
+#browser, #waitlist, #register, #schedule{
+	border: 3px solid #2C2C2C;	
+	margin-bottom: 20px;
+}
+
+.paper{
+	padding: 0 10px;
+}
+
+.button {
+  background-color: #e3528c;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-family: 'Nunito Sans', sans-serif;
+  letter-spacing: 1.5;
+}
+
+.button:hover {
+  background-color: #b34b74;
+  color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+  	.row-flex{
+  		flex-direction: column;
+  	}
+  	.image{
+  		max-width: 50%;
+  	}
+  	.paper{
+		padding: 0;
+	}
+	.content-right{
+		padding-left: 0px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

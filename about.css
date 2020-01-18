@@ -1,0 +1,47 @@
+li a.active {
+  	color: #e3528c;
+}
+
+h2, h3{
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.right {
+	flex-basis: 60%;
+	flex-shrink: 0;
+}
+
+.right h2, .right h3{
+	color: #e3528c;
+	font-style: italic;
+}
+
+.content-flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#about_pic{
+	border: 8px solid #2C2C2C;
+	max-width: 280px;
+}
+
+#left{
+	display: block;
+	margin-left: 362px;
+}
+
+.about-content {
+	margin-left: 140px;
+	margin-top: 40px;
+	margin-right: 150px;
+}
+
+.contact {
+	margin-left: 140px;
+	margin-top: 40px;
+	margin-right: 150px;
+	width: 1000px;	
+}
