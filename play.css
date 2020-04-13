@@ -17,6 +17,10 @@ li a.active {
 	padding: 0 10px;
 }
 
+.text{
+    margin-top: 80px;
+}
+
 
 @media only screen and (max-width: 1000px) {
     .row-flex{
