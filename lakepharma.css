@@ -63,8 +63,13 @@ li a.active {
 	margin-top: 20px;
 }
 
-.videography{
-	padding-right: 25px;
+.video{
+	margin-bottom: 20px;
+	padding: 0 10px;
+}
+
+.videography-content{
+	margin-top: 30px;
 }
 
 @media only screen and (max-width: 1000px) {

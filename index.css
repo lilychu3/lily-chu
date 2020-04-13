@@ -1,6 +1,7 @@
 body.homepage {
 	padding-left: 0;
 	padding-right: 0;
+	margin: none;
 }
 
 .header-flex{
@@ -27,6 +28,7 @@ li a.active {
 	text-align: center;
 	opacity: 1;
   	transition: 0.3s;
+
 }
 
 .block-color1 {
